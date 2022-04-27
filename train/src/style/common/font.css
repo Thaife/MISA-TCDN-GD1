@@ -1,0 +1,20 @@
+@font-face {
+    font-family: notosansRegular;
+    src: url("../../assets//Resource/fonts/notosans-regular.2cb88a13.woff2");
+}
+@font-face {
+    font-family: notosansItalic;
+    src: url("../../assets//Resource/fonts/notosans-italic.1c1aaac9.woff2");
+}
+@font-face {
+    font-family: notosansSemiBold;
+    src: url("../../assets//Resource/fonts/notosans-semibold.df3e6dc4.woff2");
+}
+@font-face {
+    font-family: notosansBold;
+    src: url("../../assets//Resource/fonts/notosans-bold.3ede5aff.woff2");
+}
+
+html {
+    font-size: 62.5% !important;
+}

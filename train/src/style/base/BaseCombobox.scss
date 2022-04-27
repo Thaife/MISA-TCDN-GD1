@@ -1,0 +1,68 @@
+@use '../common/help.scss';
+.base-cbb {
+    
+    position: relative;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    & .input__wrap {
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        height: 100%;
+        position: relative;
+        & input {
+            height: 100%;
+            flex: 1;
+            outline: none;
+            padding-right: 40px;
+            padding-left: 8px;
+        }
+        & .cbb__icon-wrap {
+            width: 40px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 0;
+            right: 0;
+            cursor: pointer;
+            & .cbb__icon-hide {
+                background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -371px -364px;
+                width: 10px;
+	            height: 8px;
+                position: absolute;
+            }
+            & .cbb__icon-show {
+                background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -371px -364px;
+                width: 10px;
+	            height: 8px;
+                position: absolute;
+            }
+        }
+    }
+    & .cbb__list {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        width: 100%;
+        border: 1px solid black;
+        border-top: none;
+        border-bottom-right-radius: 2px;
+        border-bottom-left-radius: 2px;
+        &__item {
+            height: 38px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            padding-left: 8px;
+            cursor: pointer;
+            &:hover {
+                background-color: #ccc
+            }
+            &.active {
+                background-color: #ccc
+            }
+        }
+    }
+}

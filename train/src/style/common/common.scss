@@ -1,0 +1,103 @@
+@use "./help";
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.v-application {
+    font-family: notosansRegular !important;
+    line-height: 100% !important;
+}
+
+.c-0 {
+    display: none;
+}
+
+.c-1 {
+    width: 8.33333%;
+}
+
+.c-2 {
+    width: 16.66667%;
+}
+
+.c-2_5 {
+    width: 20.83333%;
+}
+
+.c-3 {
+    width: 25%;
+}
+.c-3_5 {
+    width: 29.16667%;
+}
+
+.c-4 {
+    width: 33.33333%;
+}
+
+.c-5 {
+    width: 41.66667%;
+}
+
+.c-6 {
+    width: 50%;
+}
+
+.c-7 {
+    width: 58.33333%;
+}
+
+.c-8 {
+    width: 66.66667%;
+}
+
+.c-9 {
+    width: 75%;
+}
+
+.c-10 {
+    width: 83.33333%;
+}
+
+.c-11 {
+    width: 91.66667%;
+}
+
+.c-12 {
+    width: 100%;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 8px;
+    position: relative;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #d4d7dc;
+    //border-radius: 2px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(160, 160, 160);
+}

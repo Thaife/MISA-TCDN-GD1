@@ -1,0 +1,108 @@
+@use '../../style/common/help.scss';
+.sidebar {
+    width: help.$widSideBar;
+    height: 100%;
+    background-color: #38393d;
+    color: white;
+    transition: linear 0.1s;
+    &__header {
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & .more {
+            background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat -428px -92px;
+            width: 16px;
+	        height: 16px;
+            cursor: pointer;
+            margin: 5px 0;
+        }
+
+        & .logo-box { 
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+            z-index: 0;
+            & .logo {
+                background-image: url("https://actappg1.misacdn.net/img/Logo_Module_TiengViet_White.66947422.svg");
+                background-size: contain;
+                width: 96px;
+                height: 32px;
+                margin-right: 4px;
+            }
+            & span {
+                font-size: 1.3rem;
+                white-space: nowrap;
+            }
+        }
+    }
+    &.hide {
+        $widSideBar : 50px;
+        width : $widSideBar;
+        & .logo-box {
+            margin-left: 16px;
+            display: none;
+
+        }
+        & .sidebar__list span {
+            display: none;
+        }
+    }
+    & .sidebar__list__wrap{
+        height: calc(100vh - 62px);
+        overflow: auto;
+        padding-top: 14px;
+    }
+    & .sidebar__list {
+
+        &__item {
+            display: flex;
+            align-items: center;
+            padding: 21px 14px;
+            height: 36px;
+            & .icon-box {
+                width: 22px;
+                margin-right: 8px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                & .icon {
+                    background: url('../../assets/Resource/img/Sprites.64af8f61.svg') no-repeat;
+                }
+            }
+            
+
+            & span {
+                color: white;
+                font-size: 1.3rem;
+                white-space: nowrap;
+                
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: inline-block;
+                line-height: 2.8rem;
+            }
+            &.router-link-active {
+                background-color: #58595d;
+                position: relative;
+                &::after {
+                    content: "";
+                    display: block;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    height: 100%;
+                    width: 6px;
+                    background-color: help.$main-color
+                }
+                & span {
+                    font-family: notosansSemiBold;
+                }
+            }
+            &:hover {
+                background-color: #58595d;
+            }
+        }
+    }
+}

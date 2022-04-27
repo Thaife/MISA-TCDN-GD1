@@ -1,0 +1,122 @@
+/*
+.v-input--radio-group--row .v-input--radio-group__input {
+    flex-wrap: nowrap !important;
+}
+
+.v-input--radio-group .v-messages.theme--light {
+    display: none;
+}
+
+.v-input--radio-group.v-input--radio-group--row .v-radio {
+    margin-right: 8px !important;
+}
+
+.v-select.v-autocomplete {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 38px;
+    width: 100% !important;
+    font-size: 1.4rem;
+    & input {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    & .v-input__slot {
+        width: 100% !important;
+    }
+}
+
+.v-select.v-autocomplete.v-select--is-menu-active {
+    border: 1px solid green;
+}
+
+div.v-application .primary--text {
+    color: green !important;
+    caret-color: green !important;
+}
+
+
+//Radio
+
+.v-input--radio-group__input .v-label {
+    font-size: 1.3rem;
+    color: #000000 !important;
+}
+
+.v-text-field--filled > .v-input__control > .v-input__slot,
+.v-text-field--full-width > .v-input__control > .v-input__slot,
+.v-text-field--outlined > .v-input__control > .v-input__slot {
+  min-height: 30px;
+}
+.v-text-field.v-input--is-focused > .v-input__control > .v-input__slot:after {
+  border-color: rgb(9, 190, 9);
+  display: none !important;
+}
+.v-application .primary--text {
+  color: transparent !important;
+  caret-color: transparent !important;
+}
+.theme--light.v-text-field > .v-input__control > .v-input__slot:before {
+  display: none;
+}
+
+
+.v-select {
+  margin: 0;
+  width: 400px;
+  &.v-text-field {
+    padding-top: 2px;
+    margin-top: 0;
+  }
+.v-text-field__details {
+  display: none;
+}
+
+  & .v-input__slot {
+    height: 30px;
+    padding-left: 0px;
+    width: 400px;
+    margin-bottom: 0;
+    & .v-select__selection {
+      font-size: 1.3rem;
+    }
+  }
+
+  &-list {
+    & .v-list-item__title {
+      font-size: 1.3rem;
+    }
+  }
+}
+.v-list {
+  & .v-list-item {
+    min-height: 30px;
+    &__content {
+      padding: 0;
+    }
+  }
+}
+
+
+//paging
+.v-pagination__item {
+  padding: 4px;
+  font-size: 1.3rem !important;
+}
+
+.theme--light.v-pagination .v-pagination__item {
+  box-shadow: none;
+}
+
+.theme--light.v-pagination .v-pagination__item--active {
+    color: black !important;
+}
+
+.v-application .primary {
+  background-color: white !important;
+}
+
+.v-pagination__navigation{
+    box-shadow: none !important;
+}
+*/
